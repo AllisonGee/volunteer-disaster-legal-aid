@@ -21,6 +21,46 @@ width: 100vw;
   --gray-color:#74757a;
 }
 
+/*MISSION SECTION*/
+.mission{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.mission-text{
+  width: 100%;
+}
+.mission img{
+  width: 100%;
+}
+
+.mission p{
+  color: var(--gray-color);
+}
+
+.mission h2{
+  font-size: 1.5em;
+}
+
+/*MISSION SECTION MEDIA QUERIES*/
+@media screen and (min-width: 900px) {
+  .mission{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+  .mission-text{
+    width:50%;
+    order:1;
+  }
+  .mission img{
+    width:50%;
+    order:0;
+  }
+}
+
+
 /*VOLUNTEER OPTIONS*/
 .options{
   background-color: var(--green-color);
