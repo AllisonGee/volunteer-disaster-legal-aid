@@ -1,3 +1,12 @@
 .options{
   background-color: #5b5d48;
+
+}
+
+.full-width{
+width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ margin-top: 100px;
+ left: 50%;
 }
