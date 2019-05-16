@@ -1,12 +1,26 @@
-.options{
-  background-color: #5b5d48;
-
-}
-
+/*GENERAL APPLY TO ALL*/
 .full-width{
 width: 100vw;
  position: relative;
  margin-left: -50vw;
  margin-top: 100px;
  left: 50%;
+}
+
+:root {
+  --green-color: #5b5d48;
+}
+
+/*VOLUNTEER OPTIONS*/
+.options{
+  background-color: var(--green-color);
+}
+
+.info-section{
+  background-color: white;
+  margin: 1em 0em;
+}
+
+.button{
+  background-color: var(--green-color);
 }
