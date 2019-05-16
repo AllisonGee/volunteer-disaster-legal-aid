@@ -1,4 +1,13 @@
 /*GENERAL APPLY TO ALL*/
+body{
+  font-size: 16px;
+}
+
+h2{
+  font-size: 2em;
+  color:black;
+}
+
 .full-width{
 width: 100vw;
  position: relative;
@@ -9,21 +18,55 @@ width: 100vw;
 
 :root {
   --green-color: #5b5d48;
+  --gray-color:#74757a;
 }
 
 /*VOLUNTEER OPTIONS*/
 .options{
   background-color: var(--green-color);
+  padding: 1em 0.5em;
+  margin-bottom:-100px;
 }
 
 .info-section{
   background-color: white;
   margin: 1em 0em;
+  display: flex;
+  color: var(--gray-color);
 }
+
+.info-section h2{
+  font-size: 1.5em;
+}
+
 
 .info-section a{
   background-color: var(--green-color);
   color:white;
-  width:35%;
-  border-radius: 50%;
+  width:250px;
+  border-radius: 10%;
+  margin: 1em
 }
+
+.info-section img{
+  max-width: 100%;
+  height: auto;
+  margin-right:-15px;
+}
+
+/*FOOTER SECTION*/
+
+footer{
+  background-color: #2f2f2f;
+  margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
