@@ -32,6 +32,7 @@ width: 100vw;
 }
 .mission img{
   width: 100%;
+  margin-left: -50px;
 }
 
 .mission p{
@@ -51,15 +52,22 @@ width: 100vw;
 }
 
   .mission-text{
-    width:50%;
     order:1;
   }
   .mission img{
-    width:50%;
     order:0;
   }
 }
-
+@media screen and (max-width: 900px) {
+  .mission img{
+   width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-top: 100px;
+  left: 50%;
+  margin-bottom: -100px;
+  }
+}
 
 /*VOLUNTEER OPTIONS*/
 .options{
