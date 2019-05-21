@@ -21,6 +21,18 @@ width: 100vw;
   --gray-color:#74757a;
 }
 
+.btn-lg.round {
+  border-radius: 24px;
+  background-color: var(--green-color);
+  color:white;
+  font-weight: light;
+  font-size: 1em;
+  line-height: 1.5em;
+  width:250px;
+  height:2.5em;
+  margin: 1em;
+}
+
 /*HEADER SECTION*/
 .header{
   background-image: url("https://via.placeholder.com/900x450");
@@ -121,16 +133,19 @@ width: 100vw;
   padding: 20px 40px;
 }
 
-.formText {
-  vertical-align: middle;
-}
-
 .formText h2{
   color:white;
+  text-align: center;
 }
 
 .form{
   background-color: white;
+  color:var( --gray-color);
+  text-align: left;
+}
+
+.form h2{
+  text-align: center;
 }
 
 /*FORM SECTION MEDIA QUERIES*/
