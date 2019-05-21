@@ -12,7 +12,6 @@ h2{
 width: 100vw;
  position: relative;
  margin-left: -50vw;
- margin-top: 100px;
  left: 50%;
 }
 
@@ -153,7 +152,7 @@ width: 100vw;
 
 
 /*FORM SECTION MEDIA QUERIES*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .volunteer-signup{
   display: flex;
   flex-wrap:wrap;
