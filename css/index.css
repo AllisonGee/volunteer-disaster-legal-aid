@@ -113,14 +113,37 @@ width: 100vw;
 .volunteer-signup{
   background-color: var( --green-color);
   color:white;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  text-align: center;
+  height:450px;
+  padding: 20px 40px;
 }
 
-.volunteer-signup .formText h2{
+.formText {
+  vertical-align: middle;
+}
+
+.formText h2{
   color:white;
 }
 
 .form{
   background-color: white;
+}
+
+/*FORM SECTION MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+  .volunteer-signup{
+  display: flex;
+  flex-wrap:wrap;
+  height:auto;
+  }
+  .formText {
+  vertical-align: none;
+  line-height: 1.5em;
+  }
 }
 
 /*VOLUNTEER OPTIONS*/
