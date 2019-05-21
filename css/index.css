@@ -15,6 +15,12 @@ width: 100vw;
  left: 50%;
 }
 
+.area-spacing{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
 :root {
   --green-color: #5b5d48;
   --gray-color:#74757a;
@@ -128,7 +134,8 @@ width: 100vw;
   flex-direction: row;
   align-items:center;
   text-align: center;
-  padding: 20px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .form{
