@@ -25,7 +25,7 @@ width: 100vw;
   border-radius: 24px;
   background-color: var(--green-color);
   color:white;
-  font-weight: light;
+  font-weight: lighter;
   font-size: 1em;
   line-height: 1.5em;
   width:250px;
@@ -129,8 +129,17 @@ width: 100vw;
   flex-direction: row;
   align-items:center;
   text-align: center;
-  height:450px;
   padding: 20px 40px;
+}
+
+.form{
+  background-color: white;
+  color:var( --gray-color);
+  text-align: left;
+  padding: 2em;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
 }
 
 .formText h2{
@@ -138,15 +147,10 @@ width: 100vw;
   text-align: center;
 }
 
-.form{
-  background-color: white;
-  color:var( --gray-color);
-  text-align: left;
-}
-
 .form h2{
   text-align: center;
 }
+
 
 /*FORM SECTION MEDIA QUERIES*/
 @media screen and (max-width: 600px) {
