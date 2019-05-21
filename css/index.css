@@ -181,11 +181,7 @@ width: 100vw;
 
 
 .info-section a{
-  background-color: var(--green-color);
-  color:white;
-  width:250px;
-  border-radius: 10%;
-  margin: 1em
+  text-decoration: none;
 }
 
 .info-section img{
