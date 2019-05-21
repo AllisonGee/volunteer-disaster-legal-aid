@@ -21,6 +21,46 @@ width: 100vw;
   --gray-color:#74757a;
 }
 
+/*HEADER SECTION*/
+.header{
+  background-image: url("https://via.placeholder.com/900x450");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  height:450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.header h1{
+  text-align: center;
+  vertical-align: middle;
+  line-height:450px;
+  color:white;
+}
+
+/*HEADER SECTION MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+  .header{
+    height: 400px;
+  }
+
+  .header h1{
+    font-size: 2rem;
+    line-height:400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header{
+    height: 350px;
+  }
+
+  .header h1{
+    font-size: 1.5rem;
+    line-height:350px;
+  }
+}
+
 /*MISSION SECTION*/
 .mission{
   display: flex;
