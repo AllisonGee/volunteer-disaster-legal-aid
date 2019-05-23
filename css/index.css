@@ -110,6 +110,7 @@ width: 100vw;
 
   .mission-text{
     order:1;
+    padding-bottom: 1em;
   }
   .mission img{
     order:0;
@@ -175,7 +176,8 @@ width: 100vw;
 .options{
   background-color: var(--green-color);
   padding: 1em 0.5em;
-  margin-bottom:-100px;
+  display: flex;
+  flex-direction:column;
 }
 
 .info-section{
@@ -183,6 +185,7 @@ width: 100vw;
   margin: 1em 0em;
   display: flex;
   color: var(--gray-color);
+  width: 100px;
 }
 
 .info-section h2{
@@ -194,11 +197,24 @@ width: 100vw;
   text-decoration: none;
 }
 
+.info-text{
+  padding: 1.5em 1.5em 0 1.5em;
+}
+
 .info-section img{
   max-width: 100%;
   height: auto;
   margin-right:-15px;
 }
+
+/*VOLUNTEER OPTIONS MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+.info-section img{
+  display: none;
+  }
+}
+
 
 /*FOOTER SECTION*/
 
